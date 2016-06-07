@@ -1,0 +1,2 @@
+pbpaste > /tmp/api.json
+scp /tmp/api.json sevauk@vps:/var/www/html/dist/api.sgr
