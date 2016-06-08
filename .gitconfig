@@ -1,0 +1,19 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Adrien morel
+	email = adrien.morel@me.com
+
+[core]
+	editor = vim
+[push]
+	default = simple
+[alias]
+	st = status
+	co = checkout
+	ci = commit
+  db = push origin --delete
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
