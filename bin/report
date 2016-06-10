@@ -1,3 +1,5 @@
 #!/bin/bash
 
-cat reu.html | ssh vps "cat >> /var/www/html/reu/index.html; echo '<hr><br>' >> /var/www/html/reu/index.html"
+echo "---" >> réu.mk
+
+marked réu.mk | ssh sevauk@vps "cat >> /var/www/html/reu/index.html"
