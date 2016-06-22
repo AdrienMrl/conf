@@ -4,7 +4,11 @@
       "vim-mode"
       "activate-power-mode"
     ]
+  editor:
+    fontSize: 16
   "exception-reporting":
     userId: "dd0c5768-3b80-a90c-fb86-e615e038e75c"
+  "ocaml-merlin":
+    default: {}
   welcome:
     showOnStartup: false

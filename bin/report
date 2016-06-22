@@ -2,4 +2,4 @@
 
 echo "---" >> réu.mk
 
-marked réu.mk | ssh sevauk@vps "cat >> /var/www/html/reu/index.html"
+marked réu.md | ssh sevauk@vps "cat >> /var/www/html/reu/index.html"
