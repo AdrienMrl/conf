@@ -5,9 +5,11 @@
       "activate-power-mode"
     ]
   editor:
-    fontSize: 16
+    fontSize: 15
   "exception-reporting":
     userId: "dd0c5768-3b80-a90c-fb86-e615e038e75c"
+  linter:
+    errorPanelHeight: 145
   "ocaml-merlin":
     default: {}
   welcome:

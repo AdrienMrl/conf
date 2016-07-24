@@ -7,15 +7,12 @@ alias vps="ssh sevauk@vps"
 alias cinédb="mysql -u cinema cinema"
 alias nm="node main.js"
 alias ns="npm start --"
-alias ipfsd="IPFS_PATH=~/.ipfs ipfs daemon"
-alias ipfsh="IPFS_PATH=~/.ipfs ipfs"
 alias msgfmt="/usr/local/opt/gettext/bin/msgfmt"
 alias rml="repeat 1000"
 
 export PATH=$PATH:~/bin:~/code/epitech/storeit/src/
 export PATH=$PATH:/usr/local/texlive/2015basic/bin/x86_64-darwin
 export EDITOR=vim
-export IPFS_PATH=/Volumes/TOCHIBAAA/cinema-data/.ipfs
 
 set -o vi
 
@@ -75,5 +72,13 @@ function issue {
   git push origin $1
 }
 
+function merge {
+  git co master
+  git merge $1 --no-ff
+  git push origin --delete $1
+}
+
 # OPAM configuration
 . /Users/adri/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
+
+ssh-add ~/.ssh/github_key
