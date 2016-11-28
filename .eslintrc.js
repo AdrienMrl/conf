@@ -35,7 +35,6 @@ module.exports = {
     'no-with': ['error'],
     'valid-typeof': ['error'],
     'import/no-amd': ['error'],
-    'import/no-commonjs': ['error'],
     'import/no-duplicates': ['error'],
     'import/no-named-as-default': ['error'],
     /* good-practices */

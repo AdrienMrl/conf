@@ -11,9 +11,8 @@
     userId: "dd0c5768-3b80-a90c-fb86-e615e038e75c"
   linter:
     errorPanelHeight: 145
-  "linter-eslint": {}
-  "node-debugger":
-    nodePath: "/usr/local/bin/node"
+  "linter-eslint":
+    eslintrcPath: "~/.eslintrc.js"
   "ocaml-merlin":
     default: {}
   "tree-view":

@@ -35,7 +35,7 @@ function look {
 export OPENSSL_INCLUDE_DIR=/usr/local/opt/openssl/include
 export OPENSSL_ROOT_DIR=/usr/local/opt/openssl
 
-export PROMPT='%(?,💡 ,☠  )%f'
+export PROMPT='%(?,💡  ,☠   )%f'
 
 
 # StoreIt stuff
