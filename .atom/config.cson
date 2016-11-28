@@ -4,6 +4,7 @@
       "vim-mode"
       "activate-power-mode"
     ]
+    telemetryConsent: "limited"
   editor:
     fontSize: 15
   "exception-reporting":
@@ -12,5 +13,7 @@
     errorPanelHeight: 145
   "ocaml-merlin":
     default: {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false

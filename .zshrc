@@ -1,5 +1,4 @@
 alias adb=/Users/sevauk/Library/Android/sdk/platform-tools/adb
-alias ls="exa"
 alias cr="cargo run"
 alias cb="cargo build"
 alias mmayor="~/bin/interro.py ~/bin/memory_mayor.dat"
@@ -10,9 +9,12 @@ alias ns="npm start --"
 alias msgfmt="/usr/local/opt/gettext/bin/msgfmt"
 alias rml="repeat 1000"
 
+alias client="npm run daemon -r dotenv/config"
+
 export PATH=$PATH:~/bin:~/code/epitech/storeit/src/
 export PATH=$PATH:/usr/local/texlive/2015basic/bin/x86_64-darwin
 export EDITOR=vim
+export GOPATH=$HOME/go
 
 set -o vi
 
@@ -33,7 +35,7 @@ function look {
 export OPENSSL_INCLUDE_DIR=/usr/local/opt/openssl/include
 export OPENSSL_ROOT_DIR=/usr/local/opt/openssl
 
-export PROMPT='%(?,❤️  ,💔  )%f'
+export PROMPT='%(?,💡 ,☠  )%f'
 
 
 # StoreIt stuff
