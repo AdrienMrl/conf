@@ -8,6 +8,7 @@ alias nm="node main.js"
 alias ns="npm start --"
 alias msgfmt="/usr/local/opt/gettext/bin/msgfmt"
 alias rml="repeat 1000"
+alias grec="grep --color=always"
 
 alias client="npm run daemon -r dotenv/config"
 
@@ -84,3 +85,4 @@ function merge {
 . /Users/adri/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
 
 ssh-add ~/.ssh/github_key
+ssh-add -A ~/.ssh/meetclubbing_key

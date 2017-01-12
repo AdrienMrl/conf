@@ -15,7 +15,6 @@
     eslintrcPath: "~/.eslintrc.js"
   "ocaml-merlin":
     default: {}
-  "tree-view":
-    hideVcsIgnoredFiles: true
+  "tree-view": {}
   welcome:
     showOnStartup: false
