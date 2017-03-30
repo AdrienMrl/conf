@@ -1,4 +1,5 @@
 alias adb=/Users/sevauk/Library/Android/sdk/platform-tools/adb
+alias andro=/Users/adrienmorel/Library/Android/sdk/platform-tools/adb
 alias cr="cargo run"
 alias cb="cargo build"
 alias mmayor="~/bin/interro.py ~/bin/memory_mayor.dat"
@@ -16,6 +17,7 @@ export PATH=$PATH:~/bin:~/code/epitech/storeit/src/
 export PATH=$PATH:/usr/local/texlive/2015basic/bin/x86_64-darwin
 export EDITOR=vim
 export GOPATH=$HOME/go
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home
 
 set -o vi
 

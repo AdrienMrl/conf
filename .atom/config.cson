@@ -1,7 +1,6 @@
 "*":
   core:
     disabledPackages: [
-      "vim-mode"
       "activate-power-mode"
     ]
     telemetryConsent: "limited"
@@ -13,6 +12,10 @@
     errorPanelHeight: 145
   "linter-eslint":
     eslintrcPath: "~/.eslintrc.js"
+  "linter-flake8":
+    ignoreErrorCodes: [
+      "D100"
+    ]
   "ocaml-merlin":
     default: {}
   "tree-view": {}
