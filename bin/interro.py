@@ -22,7 +22,7 @@ def dumpit(qa):
     s = strize(qa)
     f.write(s)
 
-def getqas(fname):
+def getqas(fname = 'memory_mayor.dat'):
 
   qa = dict()
   with open(fname) as f:
@@ -37,10 +37,10 @@ def getqas(fname):
 
 def numberToWords(number):
     i = 0
-    qa = getqas(sys.argv[2])
+    qa = getqas('memory_mayor.dat' if len(sys.argv) < 3 else sys.argv[2])
     while i + 1 < len(number):
         s = number[i:i+2]
-        print(qa[s][0])
+        print(' ou '.join(qa[s]))
         i += 2
 
 def preguntas():

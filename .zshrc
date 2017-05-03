@@ -88,3 +88,4 @@ function merge {
 
 ssh-add ~/.ssh/github_key
 ssh-add -A ~/.ssh/meetclubbing_key
+eval $(/usr/libexec/path_helper -s)

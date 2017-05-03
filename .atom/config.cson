@@ -3,6 +3,9 @@
     disabledPackages: [
       "activate-power-mode"
     ]
+    ignoredNames: [
+      "*.meta"
+    ]
     telemetryConsent: "limited"
   editor:
     fontSize: 15
@@ -18,6 +21,7 @@
     ]
   "ocaml-merlin":
     default: {}
-  "tree-view": {}
+  "tree-view":
+    hideIgnoredNames: true
   welcome:
     showOnStartup: false
