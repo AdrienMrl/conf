@@ -1,27 +1,3 @@
 "*":
-  core:
-    disabledPackages: [
-      "activate-power-mode"
-    ]
-    ignoredNames: [
-      "*.meta"
-    ]
-    telemetryConsent: "limited"
-  editor:
-    fontSize: 15
   "exception-reporting":
-    userId: "dd0c5768-3b80-a90c-fb86-e615e038e75c"
-  linter:
-    errorPanelHeight: 145
-  "linter-eslint":
-    eslintrcPath: "~/.eslintrc.js"
-  "linter-flake8":
-    ignoreErrorCodes: [
-      "D100"
-    ]
-  "ocaml-merlin":
-    default: {}
-  "tree-view":
-    hideIgnoredNames: true
-  welcome:
-    showOnStartup: false
+    userId: "6340b3d3-b9d4-4cb2-9b72-c9305f28df1b"

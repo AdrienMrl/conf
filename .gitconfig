@@ -1,8 +1,8 @@
 # This is Git's per-user configuration file.
 [user]
 # Please adapt and uncomment the following lines:
-	name = Adrien morel
-	email = adrien.morel@me.com
+	name = Adrien Morel
+	email = hello@adrienmorel.co
 
 [core]
 	editor = vim
